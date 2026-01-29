@@ -1,5 +1,3 @@
-import axios from "axios";
-
 /**
  * 生成短链接
  * @param {string} url 原始链接
