@@ -5,9 +5,11 @@ import axios from "axios";
  * @param {string} url 原始链接
  * @returns 短链接
  */
-const shortUrl = async url => {
-    const res = await axios.post('/url', { url });
-    return res.data;
-}
 
-export default { shortUrl };
+// src/services/entity.js
+const entityService = {
+  method1: () => {},
+  method2: () => {}
+};
+
+export default entityService;
